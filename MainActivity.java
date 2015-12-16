@@ -100,7 +100,7 @@ public class MainActivity extends ActionBarActivity {
             case ACT1 :
                 if (resultCode == RESULT_OK) {
                     String s = data.getStringExtra("returnData");
-                    text.setText("서브 액티비티에서 보낸 값 : " + s);
+                    text.setText("서브 액티비티에서 보낸 값은 : " + s);
                 }
         }
     }
